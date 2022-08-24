@@ -5,12 +5,12 @@ import { HomeIcon, UserIcon, PhoneIcon, InformationCircleIcon } from '@heroicons
 
 export default function Header() {
   return (
-    <div className=''>
+    <div>
         <div className="flex">
           <HeaderIcon Icon={HomeIcon} title="HOME" />       
           <HeaderIcon Icon={UserIcon} title="CONTACT" />       
-          <HeaderIcon Icon={PhoneIcon} title="ACCOUNT" />       
-          <HeaderIcon Icon={InformationCircleIcon} title="ABOUT" />       
+          <HeaderIcon Icon={HomeIcon} title="ACCOUNT" />       
+          <HeaderIcon Icon={HomeIcon} title="ABOUT" />       
         </div>
         <Image
           src="https://upload.wikimedia.org/wikipedia/commons/6/69/IMDB_Logo_2016.svg"

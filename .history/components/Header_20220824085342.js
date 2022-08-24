@@ -5,7 +5,7 @@ import { HomeIcon, UserIcon, PhoneIcon, InformationCircleIcon } from '@heroicons
 
 export default function Header() {
   return (
-    <div className=''>
+    <div className='bg-gray-700 '>
         <div className="flex">
           <HeaderIcon Icon={HomeIcon} title="HOME" />       
           <HeaderIcon Icon={UserIcon} title="CONTACT" />       
