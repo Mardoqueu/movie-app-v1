@@ -1,8 +1,7 @@
 import Head from 'next/head'
-import { Result } from 'postcss'
 import Header from '../components/Header'
 import Navbar from '../components/Navbar'
-import Results from '../components/Results'
+import Navbar from '../components/Result'
 
 export default function Home() {
   return (
@@ -21,7 +20,6 @@ export default function Home() {
       
       {/*  Results */}
       
-      <Results/>
 
     </div>
   )
