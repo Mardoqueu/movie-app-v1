@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image';
 import HeaderIcon from './HeaderIcon';
-import { HomeIcon, UserIcon, PhoneIcon, InformationCircleIcon } from '@heroicons/react/solid';
+import { HomeIcon, UserIcon, PhoneIcon, InformationCircleIcon } from '@heroicons/react/24/solid'
 
 export default function Header() {
   return (
