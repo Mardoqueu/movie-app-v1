@@ -3,7 +3,6 @@ import Header from "../components/Header";
 import Navbar from "../components/Navbar";
 import Results from "../components/Results";
 import requests from "../utils/requests";
-
 export default function Home({ results }) {
   console.log(results);
   return (

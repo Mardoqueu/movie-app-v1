@@ -24,7 +24,7 @@ export default function Home({ results }) {
 
       {/* Results */}
 
-      <Results results={results} />
+      <Results/>
     </div>
   );
 }
@@ -41,3 +41,4 @@ export async function getServerSideProps(context) {
     },
   };
 }
+
